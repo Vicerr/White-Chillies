@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="">
+    <script defer src="js/index.js"></script>    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+    <title>White Chillies - Login</title>
+</head>
+
+<body>
+    <section class="signin-page-container container py">
+        <div class="login-popup flex hide-popup">
+            <div class="flex">
+                <p>Login Successful</p>
+            </div>
+        </div>
+
+        <div class="container-wrapper">
+            <div class="flex-column flex-center-between form-container">
+                <h1 class="header-misc">Login</h1>
+                <!-- remove redirect from validation.js in line 102 -->
+                <form
+                    class="grid form"
+                    action="index.html"
+                    method="POST"
+                    id="form"
+                >
+
+                    <!-- email form group  -->
+                    <div>
+                        <div class="formgroup">
+                            <label class="sr-only" for="email"
+                                >E-Mail</label
+                            >
+                            <input
+                                class="forminput"
+                                type="email"
+                                name=""
+                                id="email"
+                                placeholder="Email"
+                                required
+                            />
+                        </div>
+                        <div class="error"></div>
+                    </div>
+                    <!-- password form group  -->
+                    <div>
+                        <div class="formgroup">
+                            <label class="sr-only" for="password"
+                                >Password</label
+                            >
+                            <input
+                                minlength="8"
+                                class="forminput"
+                                type="password"
+                                id="password"
+                                placeholder="Password"
+                                required
+                            />
+                        </div>
+                        <div class="error"></div>
+                    </div>
+                   
+                    <input
+                        class="general-btn"
+                        type="submit"
+                        value="Login"
+                    />
+                </form>
+
+                <p>
+                    Don't have an Account?
+                    <a href="signup.html" class="support">Sign Up</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+</div>
+<script src="js/validation.js"></script>
+</body>
+
+</html>
