@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+    <script defer src="js/index.js"></script>    
+    <title>White Chillies - Payment</title>
+</head>
+
+<body>    
+    <nav>
+    <div class="container  flex nav-lg">
+        <ul class="nav-container flex">
+            <span class="closeNav">x</span>
+            <li class="nav-list">
+                <a class=" scale-text-link" href="http://"> <img src="assets/icons/account-image.svg" alt="">Account</a>
+            </li>
+            <li class="nav-list"><a class="item scale-text-link" href="payment.html"><img src="assets/icons/payment.svg" alt="">
+                    Payment
+                    Cards</a></li>
+            <li class="nav-list"><a class=" scale-text-link" href="http://"><img src="assets/icons/account-book.svg"
+                        alt="">Address
+                    Books</a></li>
+            <li class="nav-list"><a class=" scale-text-link" href="http://"><img src="assets/icons/setting.svg"
+                        alt="">Settings</a>
+            </li>
+            <li class="nav-list"><a class=" scale-text-link" href="order.html"><img src="assets/icons/order.svg"
+                        alt="">Orders</a></li>
+            <li class="nav-list"><a class=" scale-text-link" href=""><img src="assets/icons/info.svg" alt="">About</a> </li>
+        </ul>
+        <a href="" class="logout-btn scale-text-link"><img src="assets/icons/logout.svg" alt=""> Log Out</a>
+    </div>
+</nav>
+   <section class="container flex payment-section">
+    <div class="nav-head ">
+        <div class="container-lg  flex-center-between">
+           <div class="openNav flex-center-between">
+                <div class="toggleMenuBtn line"></div>
+           </div>
+    
+            <img src="assets/icons/account-book.svg" alt="">
+        </div>
+    </div>
+    <a href="" aria-label="navigate to previous page" class="back-btn flex"> <img src="assets/icons/caret-left.svg" aria-hidden="true" alt="">Back</a>
+    <form class="flex-column payment-form" action="">
+        <div class="flex-center-between">
+            <h1>Billing Address</h1>
+            <button></button>
+        </div>
+        <fieldset>
+            <legend ><label for="firstname">First name</label></legend>
+            <input type="text">
+        </fieldset>
+        <fieldset>
+            <legend ><label for="lastname">Last name</label></legend>
+            <input type="text">
+        </fieldset>
+        <fieldset>
+            <legend ><label for="email">Email name</label></legend>
+            <input type="email">
+        </fieldset>
+        <fieldset>
+            <legend ><label for="street-location">Street</label></legend>
+            <input type="text">
+        </fieldset>
+        <fieldset>
+            <legend ><label for="street-area">Street Province</label></legend>
+            <select name="" id="">
+                <option value="">Abuja</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend ><label for="city">City</label></legend>
+            <input type="text">
+        </fieldset>
+        <fieldset>
+            <legend ><label for="zipcode">Zip Code</label></legend>
+            <input type="text">
+        </fieldset>
+        <fieldset>
+            <legend ><label for="phone">Phone</label></legend>
+            <input type="text">
+        </fieldset>
+        <div>
+            <label class="sr-only" for="address-preference">how do you want your address to be saved?</label>
+            <div class="flex checkbox-item">
+                <input type="checkbox" name="" id="">
+                <p>My billing and shipping address are the same</p>
+            </div>
+            <div class="flex checkbox-item">
+                <input type="checkbox" name="" id="">
+                <p>create an account for later use</p>
+            </div>
+        </div>
+        <fieldset>
+            <legend ><label for="password">Password</label></legend>
+            <input type="password">
+        </fieldset>
+        <fieldset>
+            <legend ><label for="confirmpassword">Confirm Password</label></legend>
+            <input type="password">
+        </fieldset>
+        <p>Already have an account? <a href="#">Sign in here</a></p>
+
+    </form>
+
+    <form class="flex-column" action="">
+        <div class="flex-center-between">
+            <h1>Shipping Address</h1>
+            <button></button>
+        </div>
+        <fieldset>
+            <legend ><label for="firstname">First name</label></legend>
+            <input type="text">
+        </fieldset>
+        <fieldset>
+            <legend ><label for="lastname">Last name</label></legend>
+            <input type="text">
+        </fieldset>
+        <fieldset>
+            <legend ><label for="email">Email Address</label></legend>
+            <input type="email">
+        </fieldset>
+        <fieldset>
+            <legend ><label for="street-location">Street</label></legend>
+            <input type="text">
+        </fieldset>
+        <fieldset>
+            <legend ><label for="province">State / Province</label></legend>
+            <select name="" id="">
+                <option value="">Select your Region</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend ><label for="city">City</label></legend>
+            <input type="text">
+        </fieldset>
+        <fieldset>
+            <legend ><label for="zipcode">Zip / Postal Code</label></legend>
+            <input type="text" placeholder="0000">
+        </fieldset>
+        <fieldset>
+            <legend ><label for="phone">Phone</label></legend>
+            <input type="text" placeholder="(000) 000 000">
+        </fieldset> 
+
+
+    </form>
+
+    <form class="flex-column" action="">
+        <div class="flex-center-between">
+            <h1>Payment Method </h1>
+            <button></button>
+        </div>
+      
+        api
+       
+
+    </form>
+    <button type="submit" class="general-btn">Continue</button>
+   </section>
+</body>
+
+</html>
